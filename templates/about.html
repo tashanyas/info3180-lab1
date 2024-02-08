@@ -3,12 +3,16 @@
 <head> 
     <meta charset="UTF-8"> 
     <title>My Website - About</title> 
+    <link rel ="stylesheet" href="{{ url_for('static', filename='css/app.css')}}"/>
 </head> 
 <body> 
     <h1>Tashanya Martin</h1> 
     <p>My name is Tashanya Martin and I am a 21 year old computer science major at Uwi.
         I am taking this course, INF03180, because i am interested in the Web development aspect of this field.
-        I will be getting an A+ in this course. 
+        I will be getting an A+ in this course. To give a little information about me, I would say i am a hardworking student and a little 
+        bit of an overchiever, which can be overwhleming at times.I love to listen to music and hang out with the people I love. I also love 
+        butteflies. I have 3 siblings who are my biggest supporters and an awesome pet turtle, Sam. 
     </p> 
+    <img src="{{ url_for('static', filename='Butterfly.jpg') }}" alt="Blue butterflies">
 </body> 
 </html> 

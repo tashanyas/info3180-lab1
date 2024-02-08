@@ -4,7 +4,16 @@ body {
   line-height: 1.5;
 }
 
+p{
+  color: rgb(195, 121, 133);
+  border: 1px solid #000000;
+  text-align: justify;
+}
 .container {
   max-width: 960px;
   margin: 0 auto;
+}
+
+.img{
+  border-radius: 10px;
 }
